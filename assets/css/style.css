@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: rgb(52, 39, 92);
+    --secondary: rgb(95, 44, 102);
+    --tertiary: rgb(135, 46, 112);
+    --vibrant: rgb(216, 42, 132);
+    --dark: black;
+    --light: white;
+}
+
+body {
+    background: linear-gradient(rgb(52, 39, 92), rgb(95, 44, 102), rgb(135, 46, 112), rgb(175, 46, 122), rgb(216, 42, 132));
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.5;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+header {
+    padding: 10px 5% 10px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 5px 30px;
+}
+
+header h1 {
+    font-size: 4vw;
+    font-style: italic;
+    padding: 5px 2% 5px 5%;
+    color: var(--vibrant);
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 15px 15px;
+    font-size: 1.5rem;
+}
+
+nav a:link {
+    color: var(--tertiary);
+}
+
+nav a:visited {
+    color: var(--vibrant);
+}
+
+nav a:hover {
+    color: var(--primary);
+}
+
+main {
+    margin-top: 15px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+
+}
+
+.hero-banner {
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 25vh;
+    padding: 1% 5%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.hero-banner h2 {
+    font-size: 2rem;
+    color: var(--vibrant);
+    line-height: 1;
+    display: inline;
+}
+
+.page-section {
+    margin: 20px 0;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+}

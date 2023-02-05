@@ -1,0 +1,3 @@
+## Credits
+Hero-Banner: Photo by Nimit Kansagra: https://www.pexels.com/photo/illuminated-computer-screen-4509131/
+Work Background Images: Photo by Miguel Á. Padriñán: https://www.pexels.com/photo/web-text-1591060/, Photo by Pixabay: https://www.pexels.com/photo/advertising-alphabet-business-communication-270637/, Photo by Aleksandar Pasaric: https://www.pexels.com/photo/photo-of-skyscrapers-surrounded-with-clouds-1437493/, Photo by Fernando Arcos: https://www.pexels.com/photo/under-construction-signage-on-laptop-keyboard-211122/
