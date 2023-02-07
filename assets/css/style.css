@@ -90,7 +90,7 @@ main {
     display: inline;
 }
 
-.page-section {
+.page-selection {
     margin: 20px 0;
     padding: 10px 0;
     display: flex;
@@ -98,4 +98,116 @@ main {
     flex-wrap: wrap;
     align-items: stretch;
     justify-content: space-between;
+}
+
+.page-selection > h2 {
+    flex: 0 0 15%;
+    text-align: right;
+    padding-right: 12px;
+    border-right: 5px solid var(--primary);
+    font-size: 3vw;
+    line-height: 1;
+}
+
+.page-selection article {
+    flex: 0 0 75%;
+}
+
+.page-selection div {
+    flex: 0 0 75%;
+}
+
+.page-selection address {
+    flex: 0 0 75%;
+}
+
+article p {
+    margin-bottom: 18px;
+    font-size: 1.75rem;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-item {
+    border: 3px solid var(--secondary);
+    color: var(--tertiary);
+    min-height: 150px;
+    max-height: 150px;
+    flex-basis: calc(50% - 1em);
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 15px 0;
+    margin: 0.5em;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.flex-item:first-child {
+    min-height: 400px;
+    flex-basis: 100%;
+}
+
+.flex-item:hover {
+    background-color: var(--primary);
+}
+
+.flex-item title {
+    background-color: var(--primary);
+    padding: 10px 12px;
+}
+
+.flex-item h3 {
+    font-size: 2rem;
+}
+
+address {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+}
+
+address a {
+    color: var(--primary);
+    padding: 5px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-style: normal;
+    display: inline-block;
+    margin: 0 0.1rem 0.05rem;
+    background-image: linear-gradient(270deg, var(--primary) 0%, var(--primary) 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.3rem;
+    background-position: bottom;
+    transition: all 0.15s ease-in;
+}
+
+address a:hover {
+    background-size: 100%;
+    color: var(--vibrant);
+}
+
+.studyguide {
+    background-image: url("../images/web.jpg");
+    background-size: 1400px 400px;
+}
+
+.horiseon {
+    background-image: url("../images/SEO.jpg");
+    background-size: 630px 150px;
+}
+
+.placeholder1 {
+    background-image: url("../images/construction1.jpg");
+    background-size: 630px 150px;
+}
+
+.placeholder2 {
+    background-image: url("../images/placeholder2.jpg");
+    background-size: 630px 150px;
 }
