@@ -155,13 +155,14 @@ article p {
     background-color: var(--primary);
 }
 
-.flex-item title {
-    background-color: var(--primary);
-    padding: 10px 12px;
+.flex-item h3 {
+    font-size: 3rem;
+    color: var(--tertiary);
 }
 
-.flex-item h3 {
-    font-size: 2rem;
+.flex-item span {
+    font-size: 20px;
+    color: var(--tertiary);
 }
 
 address {
@@ -173,7 +174,7 @@ address {
 }
 
 address a {
-    color: var(--primary);
+    color: var(--dark);
     padding: 5px;
     text-decoration: none;
     font-size: 1.2rem;
@@ -193,7 +194,7 @@ address a:hover {
 }
 
 .studyguide {
-    background-image: url("../images/web.jpg");
+    background-image: url("../images/construction1.jpg");
     background-size: 1400px 400px;
 }
 
@@ -203,7 +204,7 @@ address a:hover {
 }
 
 .placeholder1 {
-    background-image: url("../images/construction1.jpg");
+    background-image: url("../images/web.jpg");
     background-size: 630px 150px;
 }
 
